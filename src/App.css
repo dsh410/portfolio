@@ -64,5 +64,23 @@ div  {
   margin:2% auto;
 }
 
+.cellPhoneIcon {
+  display: flex;
+  justify-content: center;
+color:#f2be54 ;
+margin-right:1%;
+
+}
+
+.gitHubLink {
+  margin-left: 1%;
+  text-decoration: none;
+  color:#f2be54 ;
+}
+
+p{
+  margin-left:.5%;
+}
+
 
 
