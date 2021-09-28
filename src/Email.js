@@ -26,7 +26,7 @@ function Email(props) {
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
 </Form>
-          <Button variant="outline-warning" onClick={props.onHide}>Close</Button>
+          <Button variant="warning" onClick={props.onHide}>Close</Button>
         
       </Modal>
     );

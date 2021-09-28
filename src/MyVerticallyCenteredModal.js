@@ -22,7 +22,7 @@ function MyVerticallyCenteredModal(props) {
           </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="outline-warning"git add onClick={props.onHide}>Close</Button>
+          <Button variant="warning"git add onClick={props.onHide}>Close</Button>
         </Modal.Footer>
       </Modal>
     );
