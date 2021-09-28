@@ -78,6 +78,10 @@ margin-right:1%;
   color:#f2be54 ;
 }
 
+.gitHubLink:hover{
+  color:#f8f7f4
+}
+
 p{
   margin-left:.5%;
 }
