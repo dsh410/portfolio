@@ -34,7 +34,7 @@ function Contact(props) {
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
 </Form>
-          <Button variant="warning" onClick={props.onHide}>Send</Button>
+          <Button variant="warning" className="send-btn"onClick={props.onHide}>Send</Button>
         
       </Modal>
     );
