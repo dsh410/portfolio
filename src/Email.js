@@ -22,7 +22,7 @@ function Email(props) {
     <Form.Control type="email" placeholder="name@example.com" />
   </Form.Group>
   <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-    <Form.Label>Share Your Thoughts</Form.Label>
+    <Form.Label>Share Your Thoughts...</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
 </Form>
