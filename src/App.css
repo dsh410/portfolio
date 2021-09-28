@@ -50,6 +50,10 @@ div  {
   text-transform: capitalize;
 }
   
+#contained-modal-title-email {
+  padding:0 0% 0 40%;
+ font-size:2em;
+}
 
 
 

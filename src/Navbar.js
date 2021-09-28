@@ -1,9 +1,11 @@
 import { Button } from 'react-bootstrap';
 import { useState } from "react";
 import MyVerticallyCenteredModal from './MyVerticallyCenteredModal';
+import Email from './Email';
 
 const Navbar = () => {
     const [modalShow, setModalShow] = useState(false);
+    const [modalShowEmail,setModalEmail] = useState(false)
     return (
 
 
@@ -16,13 +18,17 @@ const Navbar = () => {
       <Button variant="outline-warning" className="btn"  onClick={() => setModalShow(true)}>
      About
       </Button>
-      <Button variant="outline-warning" className="btn" onClick={() => setModalShow(true)}>
+      <Button variant="outline-warning" className="btn" onClick={() => setModalEmail(true)}>
      Contact me!
-            </Button>
+        </Button>
+
             <MyVerticallyCenteredModal
       show={modalShow}
       onHide={() => setModalShow(false)}
-    />
+            />
+            <Email
+                show={modalShowEmail}
+      onHide={() => setModalEmail(false)}/>
       </div>
     )
 
