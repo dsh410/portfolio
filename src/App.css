@@ -6,25 +6,25 @@
  
 }
 
-a,h1,h2,h3,h5 {
+h1,h2,h3,h5 {
  text-decoration: none;
   color:#f2be54;
 
 }
 
-h2{
+h2 {
   margin-top:auto;
 }
 
-h1,h5{
+h1,h5 {
 margin:0 ;
 }
 
-.mc-container{
+.mc-container {
   margin:0 auto;
 }
 
-.btn{
+.btn {
   padding:0%;
 }
 
@@ -37,7 +37,7 @@ div  {
   margin-top:5%;
 }
 
-.icons{
+.icons {
  color: #f2be54;
  margin-top:2%;
  font-size: 10em;
@@ -45,7 +45,7 @@ div  {
 
 }
 
-.btn{
+.btn {
   margin: 3%;
   text-transform: capitalize;
 }
@@ -53,6 +53,10 @@ div  {
 #contained-modal-title-email {
   padding:0 0% 0 40%;
  font-size:2em;
+}
+
+.place-holder {
+  text-align: center;
 }
 
 

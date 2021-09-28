@@ -4,8 +4,7 @@ import Navbar from './Navbar';
 import Icons from './Icons';
 import Name from './Name';
 import MainContent from './MainContent';
-import MyVerticallyCenteredModal from './MyVerticallyCenteredModal';
-import { useState } from "react";
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 

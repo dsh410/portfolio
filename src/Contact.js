@@ -1,6 +1,6 @@
 import { Modal, Button,Form } from 'react-bootstrap';
 
-function Email(props) {
+function Contact(props) {
     return (
       <Modal
         {...props}
@@ -19,7 +19,7 @@ function Email(props) {
             <Form>
   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
     <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="name@example.com" />
+    <Form.Control type="email" className="place-holder" placeholder="name@example.com" />
   </Form.Group>
   <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
     <Form.Label>Share Your Thoughts...</Form.Label>
@@ -32,4 +32,4 @@ function Email(props) {
     );
   }
   
-export default Email;
+export default Contact;
