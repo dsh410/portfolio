@@ -6,7 +6,7 @@ const Name = () => {
             <div className="cellPhoneIcon">
                 <FaPhone />
                 <p>312.605.2652</p>
-                <a className="gitHubLink" href="https://github.com/dsh410">
+                <a className="gitHubLink" target="blank" href="https://github.com/dsh410">
                     <FaGithub />
                   
                 </a>
