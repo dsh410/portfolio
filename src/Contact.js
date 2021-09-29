@@ -16,7 +16,7 @@ function Contact(props) {
         
            
                 
-        <Form>
+        <Form className="form">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInputName">
     <Form.Label>Name</Form.Label>
     <Form.Control type="text" className="place-holder" placeholder="Full Name" />

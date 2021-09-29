@@ -18,6 +18,7 @@ margin:0 ;
 
 .mc-container {
   margin:0 auto;
+  
 }
 
 .btn {
@@ -51,17 +52,20 @@ div  {
 .place-holder {
   text-align: center;
   
+  
 }
 
 .mb-3 {
   width:70%;
   text-align: center;
   margin:auto;
+  color:#f2be54;
 }
 
 .send-btn{
   width: 50%;
   margin:2% auto;
+  color:#f2be54;
 }
 
 .cellPhoneIcon {
@@ -85,5 +89,8 @@ p{
   margin-left:.5%;
 }
 
+.form{
+  background-color:#153e5c;
+}
 
 
