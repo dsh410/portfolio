@@ -9,7 +9,7 @@ function Contact(props) {
         centered
       >
         <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-email" >
+          <Modal.Title id="contained-modal-title-vcenter" >
            Contact Me!
           </Modal.Title>
         </Modal.Header>   

@@ -2,10 +2,12 @@ import { Button } from 'react-bootstrap';
 import { useState } from "react";
 import MyVerticallyCenteredModal from './MyVerticallyCenteredModal';
 import Contact from './Contact';
+import AboutModal from './AboutModal';
 
 const Navbar = () => {
     const [modalShow, setModalShow] = useState(false);
-    const [modalShowContact,setModalContact] = useState(false)
+    const [modalShowContact, setModalContact] = useState(false)
+    const [modalShowAbout,setModalAbout] = useState(false)
     return (
 
 
@@ -15,7 +17,7 @@ const Navbar = () => {
      projects
       </Button>
       
-      <Button variant="outline-warning" className="btn"  onClick={() => setModalShow(true)}>
+      <Button variant="outline-warning" className="btn"  onClick={() => setModalAbout(true)}>
      About
       </Button>
       <Button variant="outline-warning" className="btn" onClick={() => setModalContact(true)}>
@@ -28,7 +30,11 @@ const Navbar = () => {
             />
             <Contact
                 show={modalShowContact}
-      onHide={() => setModalContact(false)}/>
+                onHide={() => setModalContact(false)} />
+             <AboutModal
+      show={modalShowAbout}
+      onHide={() => setModalAbout(false)}
+            />
       </div>
     )
 
