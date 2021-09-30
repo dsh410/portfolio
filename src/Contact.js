@@ -12,10 +12,8 @@ function Contact(props) {
           <Modal.Title id="contained-modal-title-email" >
            Contact Me!
           </Modal.Title>
-        </Modal.Header>
-        
-           
-                
+        </Modal.Header>   
+             
         <Form className="form">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInputName">
     <Form.Label>Name</Form.Label>
