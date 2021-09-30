@@ -3,11 +3,10 @@ import { DiJavascript1 } from 'react-icons/di';
 const Icons = () => {
     return (
         <div className="icons">
-            <FaReact />
             <DiJavascript1 />
-            <FaSass/>
-            
-     </div>
+            <FaCss3Alt/>
+            <FaHtml5 />       
+        </div>
     )
 }
 
