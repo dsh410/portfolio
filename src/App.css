@@ -4,86 +4,88 @@
   overflow: hidden;
 }
 
-h1,h2,h3,h5 {
-  color:#f2be54;
+h1,
+h2,
+h3,
+h5 {
+  color: #f2be54;
 }
 
 h2 {
-  margin-top:auto;
+  margin-top: auto;
 }
 
-h1,h5 {
-margin:0 ;
+h1,
+h5 {
+  margin: 0;
 }
 
 .mc-container {
-  margin:0 auto;
-  
+  margin: 0 auto;
 }
 
 .btn {
-  padding:0%;
+  padding: 0%;
 }
 
-div  {
+div {
   text-align: center;
 }
 
 .name-container {
-  margin-top:5%;
+  margin-top: 5%;
 }
 
 .icons {
- color: #f2be54;
- margin-top:2%;
- font-size: 10em;
+  color: #f2be54;
+  margin-top: 2%;
+  font-size: 10em;
 }
 
 .btn {
   margin: 3%;
   text-transform: capitalize;
 }
-  
-#contained-modal-title-vcenter {
-  padding:0 0% 0 40%;
- font-size:2em;
-}
 
+#contained-modal-title-vcenter {
+  padding: 0 0% 0 40%;
+  font-size: 2em;
+}
 
 .place-holder {
   text-align: center;
-  
-  
 }
 
 .mb-3 {
-  width:70%;
+  width: 70%;
   text-align: center;
-  margin:auto;
-  color:#f2be54;
+  margin: auto;
+  color: #f2be54;
 }
 
-.send-btn{
+.send-btn {
   width: 50%;
-  margin:2% auto;
-  color:#f2be54;
+  margin: 2% auto;
+  color: #f2be54;
 }
 
 .cellPhoneIcon {
   display: flex;
   justify-content: center;
-  color:#f2be54;
-  margin-right:1%;
+  color: #f2be54;
+  margin-right: 1%;
 }
 
 .gitHubLink {
   margin-left: 1%;
   text-decoration: none;
-  color:#f2be54 ;
+  color: #f2be54;
 }
 
-.form{
-  background-color:#153e5c;
+.form {
+  background-color: #153e5c;
 }
 
-
+.btn:hover{
+  transition:all .7s;
+}

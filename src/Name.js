@@ -1,10 +1,10 @@
-import { FaPhone,FaGithub } from 'react-icons/fa';
+import { FaPhone, FaGithub } from "react-icons/fa";
 const Name = () => {
-    return (
-        <div className="name-container">
-            <h2>Demetri Selmer</h2>
-        </div>
-    )
-}
+  return (
+    <div className="name-container">
+      <h2>Demetri Selmer</h2>
+    </div>
+  );
+};
 
-export default Name
+export default Name;
