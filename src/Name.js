@@ -1,4 +1,4 @@
-import { FaPhone, FaGithub } from "react-icons/fa";
+
 const Name = () => {
   return (
     <div className="name-container">
