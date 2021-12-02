@@ -8,7 +8,8 @@ h1,
 h2,
 h3,
 h5 {
-  color: #f2be54;
+  /* color: #f2be54; */
+  color:red;
 }
 
 h2 {
@@ -24,9 +25,7 @@ h5 {
   margin: 0 auto;
 }
 
-.btn {
-  padding: 0%;
-}
+
 
 div {
   text-align: center;
@@ -84,6 +83,10 @@ div {
 
 .form {
   background-color: #153e5c;
+}
+
+.btn{
+  padding:20%;
 }
 
 .btn:hover{
