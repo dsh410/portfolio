@@ -1,5 +1,7 @@
 .root {
-  background-color: #153e5c;
+  /* background-color: #153e5c; */
+ background-color: red; 
+
   height: 100vh;
   overflow: hidden;
 }
@@ -8,8 +10,7 @@ h1,
 h2,
 h3,
 h5 {
-  /* color: #f2be54; */
-  color:red;
+  color: #f2be54;
 }
 
 h2 {
