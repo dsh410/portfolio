@@ -14,12 +14,10 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
+        <h4>projects</h4>
+        <a href="https://gifted-hamilton-2e7ab1.netlify.app">
+          simple blog.com
+        </a>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="warning" git add onClick={props.onHide}>
