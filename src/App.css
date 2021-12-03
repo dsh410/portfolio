@@ -165,10 +165,7 @@ div {
         font-size: 10em;
     }
 
-    .btn {
-        margin: 3%;
-        text-transform: capitalize;
-    }
+  
 
     #contained-modal-title-vcenter {
         padding: 0 0 0 40%;
@@ -210,7 +207,10 @@ div {
     }
 
     .btn {
-        padding: 5%;
+        padding: 2%;
+margin: 3%;
+text-transform: capitalize;
+
     }
 
     .btn:hover {
