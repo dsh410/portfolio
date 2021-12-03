@@ -206,6 +206,12 @@ div {
         background-color: #153e5c;
     }
 
+.btn-container {
+
+    margin-top: 2%;
+}
+
+
     .btn {
         padding: 2%;
 margin: 3%;
