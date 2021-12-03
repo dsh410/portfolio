@@ -42,10 +42,7 @@ div {
   font-size: 10em;
 }
 
-.btn {
-  margin: 3%;
-  text-transform: capitalize;
-}
+
 
 #contained-modal-title-vcenter {
   padding: 0 0% 0 40%;
@@ -86,9 +83,13 @@ div {
   background-color: #153e5c;
 }
 
-.btn{
-  padding:5%;
+.btn {
+    margin: 3%;
+    text-transform: capitalize;
+    padding: 2%;
 }
+
+
 
 .btn:hover{
   transition:all .7s;
