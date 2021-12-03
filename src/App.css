@@ -13,6 +13,10 @@ h5 {
 }
 
 
+.name-container {
+  margin-top: 20%;
+    margin-left: 20%;
+}
 
 
 
@@ -48,9 +52,7 @@ div {
   text-align: center;
 }
 
-.name-container {
-  margin-top: 5%;
-}
+
 
 .icons {
   color: #f2be54;
