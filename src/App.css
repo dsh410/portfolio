@@ -24,7 +24,7 @@ h5 {
 
 
 .name-container {
-  margin-top: 20%;
+  margin-top: 15%;
     /* margin-left: 25.5%; */
 }
 
@@ -67,24 +67,7 @@ margin: 10% 3% 3% 3%;
 }
 
 
-
-
-
-
 /* .root {
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #contained-modal-title-vcenter {
@@ -109,11 +92,31 @@ margin: 10% 3% 3% 3%;
   color: #f2be54;
 }
 
-
-
-
 .form {
   background-color: #153e5c;
 }
 
  */
+
+
+@media(min-width: 810px){
+.btn-container {
+    display: flex;
+    flex-flow: row  nowrap;
+    margin-top: 10%;
+   justify-content: center;
+}
+
+.btn {
+    margin: 5% 8%;
+}
+
+.icons {
+   
+    font-size: 8em;
+    /* margin-left: 15%; */
+
+}
+
+
+}
