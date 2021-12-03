@@ -50,6 +50,7 @@ div {
 .btn-container{
   display:flex;
   flex-flow: column nowrap;
+  margin-top: 10%;;
 }
 
 .btn {
