@@ -10,11 +10,11 @@ function MyVerticallyCenteredModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
+          Project
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>projects</h4>
+        <h4>simple blog project</h4>
         <a href="https://gifted-hamilton-2e7ab1.netlify.app">
           simple blog.com
         </a>
