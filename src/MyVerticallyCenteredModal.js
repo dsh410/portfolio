@@ -16,7 +16,7 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body>
         <h4> Blogging site  project</h4>
         <a href="https://gifted-hamilton-2e7ab1.netlify.app">
-          simple blog.com
+          simple blog
         </a>
       </Modal.Body>
       <Modal.Footer>
