@@ -14,7 +14,7 @@ function AboutModal(props) {
       <Modal.Body>
         <h4>Hi My Name Is Demetri</h4>
         <p>
- I am passionate about problem-solving, writing code, working with web-based technologies, and engaging as part of a team in a collaborative effort to meet company deadlines. I bring a strong work ethic, and adaptive nature, and a curious mind, also I will bring a firm knowledge of the fundamentals of HTML, CSS, JavaScript, and React. I believe I would be a great asset to your team. please click on my projects link if you will like to see my skills in practice. 
+ I am passionate about problem-solving, writing code, working with web-based technologies, and engaging as part of a team in a collaborative effort to meet company deadlines. I bring a strong work ethic, and adaptive nature, and a curious mind, also I will bring a firm knowledge of the fundamentals of HTML, CSS, JavaScript, and React. I believe I would be a great asset to your team. please click on my projects tab if you will like to see my skills in practice. 
         </p>
       </Modal.Body>
       <Modal.Footer>
