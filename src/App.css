@@ -171,9 +171,16 @@ div {
 
   .send-btn {
     width: 50%;
-    margin: 2% auto;
+    margin-top: 2% ;
+    
     color: #f2be54;
   }
+
+.send-btn-container{
+display : flex;
+justify-content: center;
+
+}
 
   .cellPhoneIcon {
     display: flex;
