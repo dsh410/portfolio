@@ -114,7 +114,6 @@ div {
 @media (min-width: 1000px) {
   .root {
     background-color: #153e5c;
-
     height: 100vh;
     overflow: hidden;
   }
@@ -171,30 +170,16 @@ div {
 
   .send-btn {
     width: 50%;
-    margin-top: 2% ;
-    
+    margin-left:10%;
+    margin-top:2%;
     color: #f2be54;
   }
 
-.send-btn-container{
-display : flex;
-justify-content: center;
-
-}
-
-  .cellPhoneIcon {
+  .send-btn-container {
     display: flex;
     justify-content: center;
-    color: #f2be54;
-    margin-right: 1%;
   }
-
-  .gitHubLink {
-    margin-left: 1%;
-    text-decoration: none;
-    color: #f2be54;
-  }
-
+  
   .form {
     background-color: #153e5c;
   }

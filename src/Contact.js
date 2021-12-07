@@ -48,9 +48,9 @@ function Contact(props) {
         </Form.Group>
       </Form>
       <div className="send-btn-container">
-          <Button variant="warning" className="send-btn" onClick={props.onHide}>
-           Close
-          </Button>
+        <Button variant="warning" className="send-btn" onClick={props.onHide}>
+          Close
+        </Button>
       </div>
     </Modal>
   );
