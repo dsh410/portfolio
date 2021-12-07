@@ -63,7 +63,7 @@ div {
 }
 
 
-.btn:hover {
+.btn :hover {
     transition: all 0.7s;
 }
 
