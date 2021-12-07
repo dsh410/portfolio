@@ -2,8 +2,6 @@
   background-color: #153e5c;
   height: 100vh;
   overflow: hidden;
- 
- 
 }
 
 h1,
@@ -50,7 +48,7 @@ div {
 .btn-container {
   display: flex;
   flex-flow: column nowrap;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .btn {

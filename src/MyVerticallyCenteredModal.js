@@ -13,7 +13,13 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Header>
       <Modal.Body>
         <h4> Blogging site project</h4>
-        <a href="https://gifted-hamilton-2e7ab1.netlify.app" target="_blank" rel="noopener noreferrer">simple blog</a>
+        <a
+          href="https://gifted-hamilton-2e7ab1.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          simple blog
+        </a>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="warning" git add onClick={props.onHide}>
