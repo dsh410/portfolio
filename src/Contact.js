@@ -49,7 +49,7 @@ function Contact(props) {
       </Form>
       <div className="send-btn-container">
           <Button variant="warning" className="send-btn" onClick={props.onHide}>
-            Send
+           Close
           </Button>
       </div>
     </Modal>
