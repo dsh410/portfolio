@@ -1,72 +1,66 @@
 .root {
-    background-color: #153e5c;
-    height: 100vh;
-    overflow: hidden;
+  background-color: #153e5c;
+  height: 100vh;
+  overflow: hidden;
 }
 
 h1,
 h2,
 h3,
 h5 {
-    color: #f2be54;
+  color: #f2be54;
 }
 
 h2 {
-    margin-top: auto;
+  margin-top: auto;
 }
 
 h1,
 h5 {
-    margin: 0;
+  margin: 0;
 }
 
-h1{
-    font-size:3em;
+h1 {
+  font-size: 3em;
 }
-
 
 .name-container {
-    margin-top: 15%;
-    /* margin-left: 25.5%; */
+  margin-top: 15%;
+  /* margin-left: 25.5%; */
 }
 
 .icons {
-    color: #f2be54;
-    margin-top: 2%;
-    font-size: 5em;
-    /* margin-left: 15%; */
-
+  color: #f2be54;
+  margin-top: 2%;
+  font-size: 5em;
+  /* margin-left: 15%; */
 }
 
 .mc-container {
-    margin: 6% auto 0;
-    /* margin-left: 30%; */
-
+  margin: 6% auto 0;
+  /* margin-left: 30%; */
 }
 
 div {
-    text-align: center;
+  text-align: center;
 }
 
 .btn-container {
-    display: flex;
-    flex-flow: column nowrap;
-    margin-top: 10%;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 10%;
 }
 
 .btn {
+  margin: 10% 3% 3%;
 
-    margin: 10% 3% 3%;
-
-    text-transform: capitalize;
-    padding: 2%;
+  text-transform: capitalize;
+  padding: 2%;
 }
-
 
 .btn :hover {
-    transition: all 0.7s;
+  transition: all 0.7s;
 }
-
 
 /* .root {
 
@@ -99,133 +93,116 @@ div {
 
  */
 
+@media (min-width: 810px) {
+  .btn-container {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 10%;
+    justify-content: center;
+  }
 
-@media(min-width: 810px) {
-    .btn-container {
-        display: flex;
-        flex-flow: row nowrap;
-        margin-top: 10%;
-        justify-content: center;
-    }
+  .btn {
+    margin: 5% 8%;
+  }
 
-    .btn {
-        margin: 5% 8%;
-    }
-
-    .icons {
-
-        font-size: 8em;
-        /* margin-left: 15%; */
-
-    }
-
-
+  .icons {
+    font-size: 8em;
+    /* margin-left: 15%; */
+  }
 }
 
+@media (min-width: 1000px) {
+  .root {
+    background-color: #153e5c;
 
-@media(min-width: 1000px) {
+    height: 100vh;
+    overflow: hidden;
+  }
 
+  h1,
+  h2,
+  h3,
+  h5 {
+    color: #f2be54;
+  }
 
-    .root {
-        background-color: #153e5c;
+  h2 {
+    margin-top: auto;
+  }
 
+  h1,
+  h5 {
+    margin: 0;
+  }
 
-        height: 100vh;
-        overflow: hidden;
-    }
+  .mc-container {
+    margin: 0 auto;
+  }
 
-    h1,
-    h2,
-    h3,
-    h5 {
-        color: #f2be54;
-    }
+  div {
+    text-align: center;
+  }
 
-    h2 {
-        margin-top: auto;
-    }
+  .name-container {
+    margin-top: 5%;
+  }
 
-    h1,
-    h5 {
-        margin: 0;
-    }
-
-    .mc-container {
-        margin: 0 auto;
-    }
-
-
-    div {
-        text-align: center;
-    }
-
-    .name-container {
-        margin-top: 5%;
-    }
-
-    .icons {
-        color: #f2be54;
-        margin-top: 2%;
-        font-size: 10em;
-    }
-
-  
-
-    #contained-modal-title-vcenter {
-        padding: 0 0 0 40%;
-        font-size: 2em;
-    }
-
-    .place-holder {
-        text-align: center;
-    }
-
-    .mb-3 {
-        width: 70%;
-        text-align: center;
-        margin: auto;
-        color: #f2be54;
-    }
-
-    .send-btn {
-        width: 50%;
-        margin: 2% auto;
-        color: #f2be54;
-    }
-
-    .cellPhoneIcon {
-        display: flex;
-        justify-content: center;
-        color: #f2be54;
-        margin-right: 1%;
-    }
-
-    .gitHubLink {
-        margin-left: 1%;
-        text-decoration: none;
-        color: #f2be54;
-    }
-
-    .form {
-        background-color: #153e5c;
-    }
-
-.btn-container {
-
+  .icons {
+    color: #f2be54;
     margin-top: 2%;
-}
+    font-size: 10em;
+  }
 
+  #contained-modal-title-vcenter {
+    padding: 0 0 0 40%;
+    font-size: 2em;
+  }
 
-    .btn {
-    padding: .5% 1%;
+  .place-holder {
+    text-align: center;
+  }
+
+  .mb-3 {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    color: #f2be54;
+  }
+
+  .send-btn {
+    width: 50%;
+    margin: 2% auto;
+    color: #f2be54;
+  }
+
+  .cellPhoneIcon {
+    display: flex;
+    justify-content: center;
+    color: #f2be54;
+    margin-right: 1%;
+  }
+
+  .gitHubLink {
+    margin-left: 1%;
+    text-decoration: none;
+    color: #f2be54;
+  }
+
+  .form {
+    background-color: #153e5c;
+  }
+
+  .btn-container {
+    margin-top: 2%;
+  }
+
+  .btn {
+    padding: 0.5% 1%;
     margin: 3%;
     text-transform: capitalize;
+  }
 
-    }
-
-    .btn:hover {
-        transition: all 0.7s;
-    }
-
+  .btn:hover {
+    transition: all 0.7s;
+  }
 }
-

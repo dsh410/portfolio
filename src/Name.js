@@ -1,4 +1,3 @@
-
 const Name = () => {
   return (
     <div className="name-container">
