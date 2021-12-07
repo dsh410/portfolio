@@ -2,6 +2,8 @@
   background-color: #153e5c;
   height: 100vh;
   overflow: hidden;
+  overscroll-behavior: none;
+ 
 }
 
 h1,
